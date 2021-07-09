@@ -4,7 +4,7 @@ After=docker.service network-online.target
 Requires=docker.service network-online.target
 
 [Service]
-WorkingDirectory=/data/tidal-connect-docker/Docker/
+WorkingDirectory=/root/tidal-connect-docker/Docker/
 Type=oneshot
 RemainAfterExit=yes
 
