@@ -4,10 +4,10 @@ echo "Starting Tidal Connect.."
 
 /app/ifi-tidal-release/bin/tidal_connect_application \
    --tc-certificate-path "/app/ifi-tidal-release/id_certificate/IfiAudio_ZenStream.dat" \
-   -f "Hifiberry Tidal Connect" \
+   -f "Tidal Connect" \
    --codec-mpegh true \
    --codec-mqa false \
-   --model-name "Hifiberry Tidal Connect" \
+   --model-name "Tidal Connect" \
    --disable-app-security false \
    --disable-web-security false \
    --enable-mqa-passthrough false \
