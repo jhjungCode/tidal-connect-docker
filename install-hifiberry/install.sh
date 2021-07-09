@@ -6,8 +6,8 @@ cp systemd/tidal.service /etc/systemd/system/
 systemctl enable tidal.service
 
 # Add Tidal Source to Beocreate
-printf  "\nAdding Tidal Source to Beocreate UI"
-ln -s ${PWD}/beocreate/beo-extensions/tidal /opt/beocreate/beo-extensions/tidal
+# printf  "\nAdding Tidal Source to Beocreate UI"
+# ln -s ${PWD}/beocreate/beo-extensions/tidal /opt/beocreate/beo-extensions/tidal
 
 printf "\nStarting Tidal Connect Service..."
 systemctl start tidal.service
